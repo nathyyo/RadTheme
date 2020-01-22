@@ -56,7 +56,7 @@ get_header();
 		</main><!-- #main -->
 	</div><!-- #primary -->
 	</div>
-	<div class="coll-sm-4">
+	<div class="col-sm-4">
 	<?php
 get_sidebar();
 ?>

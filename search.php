@@ -52,6 +52,12 @@ get_header();
 		</main><!-- #main -->
 	</section><!-- #primary -->
 
-<?php
+	</div>
+	<div class="col-sm-4">
+	<?php
 get_sidebar();
+?>
+	</div>
+	<?php
 get_footer();
+?>
