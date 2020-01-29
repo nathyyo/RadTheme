@@ -1136,5 +1136,63 @@ object {
 
 	color:#111;
 }
+.site-footer{
+	background:-webkit-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-moz-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-o-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+
+	padding-left: 10px;
+	padding-top: 50px;
+	color:#111;; 
+	height:100px;
+}
+.site-footer a,.site-footer .site-info{
+	font-variant: small-caps;
+	padding-left: 10px;
+	font-size: 23.5px;
+}
+.site-footer .site-info a{
+	color:#fff;
+}
+.site-footer .site-info a:hover{
+	text-decoration: none;
+	font-size:25.5px;
+}
+.navigation .nav-previous a,.navigation .nav-next a{
+	color: rgb(91,231,101);
+	font-weight: 500;
+	font-size:17px;
+	padding-left: 4%;
+	padding-right: 10%;
+}
+.navigation .nav-previous a:hover,.navigation .nav-next a:hover{
+	font-size: 22px;
+	text-decoration: none;
+}
+.comments-area .comment-respond .comment-form .logged-in-as a{
+	color: rgb(91,231,101);
+	font-weight: 500;
+	padding-left: 3%;
+	font-size: 18px;	
+}
+.comments-area .comment-respond .comment-form .logged-in-as a:hover{
+	font-size: 22px;
+	text-decoration: none;
+}
+.comment-form-comment label{
+	font-size: 30px;
+	padding-left: 40px;
+}
+.page-header .page-title{
+	text-align: center;
+	font-variant: small-caps;
+}
+
+.entry-header .entry-meta, .entry-footer .cat-links{
+	padding-left: 7px;
+	padding-top: 7px;
+}
+
 
 
