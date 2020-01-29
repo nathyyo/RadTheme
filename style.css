@@ -1003,4 +1003,56 @@ object {
 	text-align: center;
 	padding-left: 10%;
 }
+.entry-header .entry-title a{
+	font-variant: small-caps;
+	color:#111;
+	font-size:28.5px;
+}
+.entry-header .entry-meta .posted-on,.entry-header .entry-meta .posted-in,.entry-footer,.entry-header .entry-meta .byline{
+	color:#111;
+}
+.entry-header .entry-title a:hover{
+	color: rgb(91,231,101);
+	font-size: 32.5px;
+	text-decoration: none;
+	font-weight: 500;
+}
+.entry-header .posted-on a,.entry-header .posted-on .updated,.entry-header .byline .author a{
+	color:#111;
+	font-size:22.5px;
+	color:#111;
+	font-size:22.5px;
+}
+.entry-header .posted-on a:hover,.entry-header .posted-on .updated:hover,.entry-header .byline .author a:hover{
+	font-variant: small-caps;
+	color: rgb(91,231,101);
+	font-size:25.5px;
+	text-decoration: none;
+	font-weight: 500;
+}
+.entry-content{
+	padding-left: 3%;
+	min-height: 100px;
+	font-size:18px;
+}
+.entry-content .wp-block-image{
+	width: 60%;
+	margin-left: 4%;
+}
+.entry-content .wp-block-image:hover{
+	width: 65%;
+}
+.entry-footer .cat-links a,.entry-footer .comments-link a,.entry-footer .edit-link a{
+	color:#111;
+	margin-left: 3%;
+	font-weight: 500;
+	font-size:18px;
+	font-variant: small-caps;
+}
+.entry-footer .cat-links a:hover,.entry-footer .comments-link a:hover,.entry-footer .edit-link a:hover{
+	color:  rgb(91,231,101);
+	font-size: 21.5px;
+	text-decoration: none;
+	font-weight: 500;
+}
 
