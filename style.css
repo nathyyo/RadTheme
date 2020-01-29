@@ -1205,12 +1205,12 @@ object {
 	list-style-type: upper-roman;
 	font-variant-ligatures: discretionary-ligatures;
 }
-.widget_recent_entries ul li a, .widget_categories .cat-item a, .footer-widget ul li a{
+.widget_recent_entries ul li a, .widget_categories .cat-item a, .footer-widget ul li a,.tagcloud a{
 	color: #111;
 	font-weight: 500;
 	font-size:22px;
 }
-.widget_recent_entries ul li a:hover, .footer-widget ul li a:hover,.widget_categories .cat-item a:hover{
+.widget_recent_entries ul li a:hover, .footer-widget ul li a:hover,.widget_categories .cat-item a:hover,.tagcloud a:hover{
 	color: rgb(91,231,101);
 	font-size: 25px;
 	text-decoration: none;
