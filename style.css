@@ -1193,6 +1193,38 @@ object {
 	padding-left: 7px;
 	padding-top: 7px;
 }
+.page-header .page-title:hover{
+	color: rgb(91,231,101);
+	font-weight: 500;
+	font-size:50px;
+}
+.widget_recent_entries .widgettitle{
+
+}
+.widget_recent_entries ul li, .widget_categories .cat-item{
+	/*list-style: gurmukhi;*/
+	list-style-position: outside;
+	list-style-type: upper-roman;
+	font-variant-ligatures: discretionary-ligatures;
+}
+.widget_recent_entries ul li a, .widget_categories .cat-item a{
+	color:  rgb(23,22,56);
+	font-weight: 500;
+	font-size:22px;
+}
+.widget_recent_entries ul li a:hover{
+	color: rgb(91,231,101);
+	font-size: 25px;
+	text-decoration: none;
+	font-variant: small-caps;
+}
+.widget_archive p{
+	padding-left: 10px;
+	font-size: 18px;
+}
+.site-info .sep{
+	color:red;
+}
 
 
 
