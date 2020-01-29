@@ -1145,7 +1145,7 @@ object {
 	padding-left: 10px;
 	padding-top: 50px;
 	color:#111;; 
-	height:100px;
+	min-height:100px;
 }
 .site-footer a,.site-footer .site-info{
 	font-variant: small-caps;
@@ -1206,7 +1206,7 @@ object {
 	font-variant-ligatures: discretionary-ligatures;
 }
 .widget_recent_entries ul li a, .widget_categories .cat-item a{
-	color:  rgb(23,22,56);
+	color: #fff;
 	font-weight: 500;
 	font-size:22px;
 }
