@@ -1206,7 +1206,7 @@ object {
 	font-variant-ligatures: discretionary-ligatures;
 }
 .widget_recent_entries ul li a, .widget_categories .cat-item a, .footer-widget ul li a{
-	color: #fff;
+	color: #111;
 	font-weight: 500;
 	font-size:22px;
 }
