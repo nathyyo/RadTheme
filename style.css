@@ -1089,4 +1089,52 @@ object {
 	font-weight: 500;
 	color: #fff;
 }
+.widget-area .widget_calendar caption{
+	color:#111;	
+	text-align: right;
+	margin-right: 4%;
+}
+.widget-area .widget_calendar table tbody tr{
+	color: #111;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.widget-area a{
+	font-size: 20px;
+	color:#111;;
+}
+.widget-area a:hover{
+	font-size: 22px;
+	color: #111;
+	font-weight: 500;
+	text-decoration: none;
+}
+.widget_catagories{
+	text-align: center;
+}
+.widget_categories .postform,.widget-area .widget_search .search-submit, .submit, .search-form .search-submit{
+	text-align: center;
+	margin-left: 10%;
+	border-radius: 10px;
+	height:35px;
+	font-variant: small-caps;
+	font-weight: 500;
+	background:-webkit-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-moz-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-o-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	color:#fff;;
+	font-size:16px;
+	margin-bottom: 8px;
+}
+.widget_categories .postform:hover,.widget-area .widget_search .search-submit:hover, .submit:hover,.search-form .search-submit:hover{
+	background:-webkit-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-moz-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-o-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+
+	color:#111;
+}
+
 
