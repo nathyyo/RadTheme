@@ -1272,5 +1272,9 @@ object {
 .entry-content p{
 	padding-left: 7px;
 }
-
+.elementor-text-editor:hover, .elementor-clearfix:hover{
+	color:#fff;
+	font-size:20px;
+	background-color: rgba(0,0,0,0.2);
+}
 
