@@ -1223,6 +1223,12 @@ object {
 .site-info .sep{
 	color:red;
 }
+.navbar, .navbar-expand-md,.navbar-light {
+	background:-webkit-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-moz-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-o-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+}
 .navbar .navbar-nav .menu-item a,.navbar .navbar-nav .menu-item a.active, .navbar-expand-md .navbar-nav .menu-item a,.navbar-light .navbar-nav .menu-item a{
 	color:#fff;
 	font-size: 18px;
@@ -1234,7 +1240,18 @@ object {
 	color:#fff;
 	font-weight:500;
 }
+.navbar .navbar-brand, .navbar-light .navbar-brand{
+	color:#fff;
+	font-weight: 500;
+	font-synthesis: style;
+}
+.site-description{
+	font-size: 22px;
+}
+.site-main .entry-header .entry-title{
+	margin-top: 20px;
 
+}
 
 
 
