@@ -1055,4 +1055,38 @@ object {
 	text-decoration: none;
 	font-weight: 500;
 }
+.widget-area{
+	color:#fff;
+	font-size: 16px;
+	padding-top: 5%;
+}
+.widget-area .widget_text{
+	font-size:18px;
+}
+.widget-area .widget_calendar,.widget-area .widget_categories,.widget-area .widget_text,.widget-area .widget_search{
+	margin-bottom: 10px;
+	border:solid rgb(91,231,101) 1px;
+	border-radius: 2px;
+}
+.widget-area .widget_calendar .calendar_wrap,.widget-area .widget_categories .postform,.widget-area .widget_text .textwidget,.widget-area .widget_search .search-form{
+	padding-left: 7px;
+	padding-right: 7px;
+	color:#111;
+}
+.widget-area .widget_calendar .widget-title,.widget-area .widget_categories .widget-title,.widget-area .widget_text .widget-title,.widget-area .widget_search .widget-title{
+	font-size:30px;
+	text-align: center;
+	margin-bottom: 3%;
+	font-variant: small-caps;
+	background:-webkit-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-moz-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:-o-linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+	background:linear-gradient(to right, rgb(91,231,101) 0%, rgb(23,22,56) 100%);
+}
+.widget-area .widget_calendar .widget-title:hover,.widget-area .widget_categories .widget-title:hover,.widget-area .widget_text .widget-title:hover,.widget-area .widget_search .widget-title:hover{
+	font-size: 34px;
+	text-decoration: none;
+	font-weight: 500;
+	color: #fff;
+}
 
