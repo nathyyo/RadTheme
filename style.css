@@ -983,3 +983,26 @@ object {
 .gallery-caption {
 	display: block;
 }
+.site-branding .site-title{
+	margin-top: 2%;
+	text-align: center;
+}
+.site-branding .site-title a{
+	font-weight: 500;
+	font-size:52px;
+	font-variant: small-caps;
+	color:#111;
+}
+.site-branding .site-title a:hover{
+	font-size: 85px;
+	text-decoration: none;
+	font-weight: 500;
+	color: rgb(91,231,101);
+}
+.site-branding .site-description{
+	text-align: center;
+	padding-left: 10%;
+}
+body{
+	background-color: red;
+}
