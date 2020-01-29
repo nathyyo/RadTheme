@@ -1260,5 +1260,17 @@ object {
 .wp-post-image:hover{
 	width: 70%;
 }
+.entry-content a{
+	color: rgb(91,231,101);
+	font-weight: 500;
+}
+.entry-content a:hover{
+	font-size: 25px;
+	color: rgb(91,231,101);
+	text-decoration: none;
+}
+.entry-content p{
+	padding-left: 7px;
+}
 
 
