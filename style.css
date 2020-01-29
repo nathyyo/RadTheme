@@ -1042,14 +1042,14 @@ object {
 .entry-content .wp-block-image:hover{
 	width: 65%;
 }
-.entry-footer .cat-links a,.entry-footer .comments-link a,.entry-footer .edit-link a{
+.entry-footer .cat-links a,.entry-footer .tags-links a,.entry-footer .comments-link a,.entry-footer .edit-link a{
 	color:#111;
 	margin-left: 3%;
 	font-weight: 500;
 	font-size:18px;
 	font-variant: small-caps;
 }
-.entry-footer .cat-links a:hover,.entry-footer .comments-link a:hover,.entry-footer .edit-link a:hover{
+.entry-footer .cat-links a:hover,.entry-footer .tags-links a,.entry-footer .comments-link a:hover,.entry-footer .edit-link a:hover{
 	color:  rgb(91,231,101);
 	font-size: 21.5px;
 	text-decoration: none;
