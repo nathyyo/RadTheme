@@ -1210,7 +1210,7 @@ object {
 	font-weight: 500;
 	font-size:22px;
 }
-.widget_recent_entries ul li a:hover, .footer-widget ul li a:hover{
+.widget_recent_entries ul li a:hover, .footer-widget ul li a:hover,.widget_categories .cat-item a:hover{
 	color: rgb(91,231,101);
 	font-size: 25px;
 	text-decoration: none;
