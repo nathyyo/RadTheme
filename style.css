@@ -1198,9 +1198,7 @@ object {
 	font-weight: 500;
 	font-size:50px;
 }
-.widget_recent_entries .widgettitle{
 
-}
 .widget_recent_entries ul li, .widget_categories .cat-item{
 	/*list-style: gurmukhi;*/
 	list-style-position: outside;
