@@ -1223,6 +1223,18 @@ object {
 .site-info .sep{
 	color:red;
 }
+.navbar .navbar-nav .menu-item a,.navbar .navbar-nav .menu-item a.active, .navbar-expand-md .navbar-nav .menu-item a,.navbar-light .navbar-nav .menu-item a{
+	color:#fff;
+	font-size: 18px;
+	font-variant: small-caps;
+	margin-left: 20px;
+}
+.navbar .navbar-nav .menu-item a:hover,.navbar .navbar-nav .menu-item a.active:hover, .navbar-expand-md .navbar-nav .menu-item a:hover,.navbar-light .navbar-nav .menu-item a:hover{
+	font-size: 22px;
+	color:#fff;
+	font-weight:500;
+}
+
 
 
 
