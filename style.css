@@ -1113,7 +1113,7 @@ object {
 .widget_catagories{
 	text-align: center;
 }
-.widget_categories .postform,.widget-area .widget_search .search-submit, .submit, .search-form .search-submit{
+.widget_categories .postform,.widget-area .widget_search .search-submit, .submit, .search-form .search-submit,.wpcf7-submit{
 	text-align: center;
 	margin-left: 10%;
 	border-radius: 10px;
